@@ -1,0 +1,28 @@
+{
+  "name": "ansible-developer-environment",
+  "displayName": "Ansible Developer Environment",
+  "description": "Extensions used for Ansible development (maintained by Ryan Gniadek)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "publisher": "ryangniadek",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryangniadek/ansible-extension-pack"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "eamodio.gitlens",
+    "github.vscode-github-actions",
+    "github.vscode-pull-request-github",
+    "GitLab.gitlab-workflow",
+    "ms-python.python",
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "redhat.ansible",
+    "redhat.vscode-redhat-account",
+    "redhat.vscode-yaml"
+  ]
+}
